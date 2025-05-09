@@ -1,0 +1,61 @@
+.landing_page_main_container {
+    background-image: url('https://res.cloudinary.com/dksgsqhdk/image/upload/v1746703373/pngtree-3d-render-of-chat-bubble-illustrating-customer-support-ideas-image_3856111_vyhp9q.jpg');
+    background-size: cover;
+    height: 100vh;
+    box-shadow:inset 0px 16px 16px 0px #000;
+}
+.landing_page_inside_container {
+    color: #fafafa;
+    padding: 70px;
+}
+.first_heading_title {
+    width: 40%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    margin-top: 80px;
+}
+
+.first_para_title {
+    width: 40%;
+    font-size: 18px;
+    color: #f0e7e7f6;
+    font-weight: 300;
+}
+
+.chat_with_bot_button {
+    padding: 10px 15px;
+    background-color: #07c4c470;
+    color: #fafafa;
+    font-weight: 700;
+    border: 0px;
+    cursor: pointer;
+    outline: none;
+}
+
+.chat_with_bot_button:hover {
+    color: #047070e0;
+    background-color: #fafafa;
+    border-radius: 15px;
+}
+
+.chat_bot_image_container {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    cursor: pointer;
+    outline: none;
+}
+@media screen and (max-width:767px){
+    .first_heading_title {
+        width: 80%;
+        font-size: 40px;
+        letter-spacing: 0.5px;
+    }
+    .first_para_title {
+        margin-top: 60px;
+        width: 90%;
+        font-size: 16px;
+        color: #f0e7e7f6;
+        font-weight: 400;
+}
+}
